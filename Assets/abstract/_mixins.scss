@@ -1,3 +1,10 @@
 @mixin padding($position, $unit){
     padding-#{$position}: $unit +px;
 }
+
+
+@mixin flexBox($align, $justify) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify; 
+}

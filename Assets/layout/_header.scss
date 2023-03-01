@@ -1,4 +1,10 @@
 header {
     @include padding(top,10);
     @include padding(right,10);
+    @include flexBox(center, center);
+    
+    .container {
+        @include flexBox(center, space-between);
+    }
 }
+
