@@ -1,0 +1,15 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  color: #54b4c5;
+  background: #a1abad;
+}
+
+header {
+  padding-top: 10px;
+  padding-right: 10px;
+}/*# sourceMappingURL=main.css.map */
